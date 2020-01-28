@@ -1,0 +1,234 @@
+<html>
+    <head>
+        <title>Create Account</title>
+        <style type="text/css">
+
+        body{
+            background-color: #83adc7;
+        }
+        .signup{
+            position: relative;
+            top: 10vw;
+            width: 30vw;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: sans-serif;
+        }
+        table{
+            width: 110%;
+            padding: 0px;
+            border-collapse: collapse;
+        }
+        tbody{
+
+        }
+        td{
+            margin: 0px;
+            padding: 6px;
+            background-color: #f2f2f2;
+            border-style: none;
+            width: 50%;
+        }
+        td.lastR{
+            border-bottom-left-radius: 7px;
+            border-bottom-right-radius: 7px;
+            background-color: #e3e1e1;
+
+        }
+       
+            
+        
+        th{
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            font-size: 26px;
+            margin: 0px;
+            background-color: #e3e1e1;
+            color: #505c58;
+            border-style: solid 5px;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+        }
+        
+        input{
+            border: 1px solid lightgrey;
+            border-radius: 3px;
+            margin-right: 2px;
+            margin-left: 2px;
+            margin-bottom: 10px;
+            padding: 6px;
+        }
+        input.col1{
+            width: 95%;
+        }
+        input.col2{
+            width: 97.7%;
+        }
+        input.col3{
+            width: 97.7%;
+            padding: 40px;
+        }
+        input[type="radio"]{
+            margin-left: 10px;
+        }
+        label{
+            color: #52d1a7;
+            font-size: 14px;
+            margin-bottom: 1px;
+            padding-left: 5px;
+            font-weight: bold;
+
+        }
+        label.radio{
+            color: #505c58;
+            padding: 0px;
+            margin: 0px;
+            font-size: 12px;
+
+        }
+        select{
+            width: 93%;
+            padding: 6px;
+            background-color: white;
+            font-weight: bold;
+            color:#505c58;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+            margin-right: 2px;
+            margin-left: 2px;
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+        .slider{
+            appearance: none;
+            width: 220px;
+            height: 0px;
+            background-color: gray;
+            padding: 2px;
+
+        }
+        .slider::-webkit-slider-thumb{
+            appearance: none;
+            width: 15px;
+            height: 15px;
+            background-color: #e3e1e1;
+            border-radius: 50%;
+            border: gray solid 1px;
+
+        }
+        #result{
+            position: relative;
+            left: 230px;
+            bottom: 23px;
+            background-color: #52d1a7;
+            border-radius: 5px;
+            padding: 3px;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    
+
+        </style>
+    </head>
+    <body>
+        <div class="signup">
+            <table>
+                <tbody>
+                        <tr>
+                             <th colspan="2">Create Account
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>First name*</label><br>
+                                <input class="col1" type="name" name="firstname" placeholder="Enter your first name">
+                            </td>
+                            <td>
+                                <label>Last name*</label><br>
+                                <input class="col1" type="name" name="Lastname" placeholder="Enter your last name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label>Email*</label><br>
+                                <input class="col2" type="text" name="country" placeholder="Enter your email "> 
+                           </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Password*</label><br>
+                                <input class="col1" type="password" name="psw" placeholder="Enter your password">
+                            </td>
+                            <td>
+                                <label>Comfirm password</label><br>
+                                <input class="col1" type="password" name="cpw" placeholder="Comfirm your password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Gender</label><br>
+                                <input type="radio" name="gender" value="female">Female
+                                <input type="radio" name="gender" value="male">Male
+                            </td>
+                            <td>
+                                <label>Hobbies</label><br>
+                                <input type="checkbox" name="Music" value="Hobbies">Music
+                                <input type="checkbox" name="Sports" value="Hobbies">Sports
+                                <input type="checkbox" name="Traval" value="Hobbies">Traval
+                                <input type="checkbox" name="Movies" value="Hobbies">Movies
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <label>Source of Income</label><br>
+                            <select name="jobtype">
+                                <option value="Employed">Employed</option>
+                                <option value="Self-Employed">Self-Employed</option>
+                                <option value="Business-Owner">Business-Owner</option>
+                                <option value="INvestment">Investment</option>
+                            </select>
+                        </td>
+                        <td class="slide">
+                            <label>Income</label><br>
+                            <form oninput="amount.value = parseInt(income.value)+'K'">
+                                <input class="slider" type="range" name="income" value="20" min="0" max="100"/><br>
+                                <output id="result" name="amount">20K</output>
+
+                            </form>
+
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Upload Your Picture</label><br>
+                                <input style="border: none;" type="file" name="Profile">
+                            </td>
+                            <td>
+                                <label>Age</label><br>
+                                <input style="width: 95%;" type="number" name="age" placeholder="Enter your age" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label>Bio</label><br>
+                                <input class="col3" type="text" name="bio">
+                            </td>
+                        </tr>
+                        <tr>
+                            
+                            <td class="lastR" colspan="2" align="right">
+                                 
+                                <button  type="button" style="background-color:#52d1a7; 
+                                padding:5px 10px 5px 10px; border-radius:8px;"> 
+                                <font color="white" align="right">Create </font> </button>
+                            </td>
+                        </tr>
+                </tbody>
+                
+            </table>
+
+        </div>
+    </body>
+    
+</html>
