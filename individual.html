@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>individual</title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Bungee+Inline|Cormorant+Garamond|Cormorant+SC|Faster+One|Fredericka+the+Great|IM+Fell+Great+Primer+SC|Megrim|Montserrat|Rajdhani|Raleway+Dots|Six+Caps|Special+Elite&display=swap" rel="stylesheet">
+</head>
+<style>
+	header{
+		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("original.gif");
+	    height: 100vh;
+		background-size: cover;
+		background-position: center; 
+		background-repeat: no-repeat;
+	    }
+	
+	.head{
+		background-color:gainsboro;
+		height: 65px;
+		border-style: 1px solid;
+		top: 0;
+		border-width: 100%;
+		border-top-style: dotted;
+		border-bottom-style: double;
+	
+	}
+	.img /*logo*/
+	{
+		position: fixed;
+		top: 50px;
+		left: 0;
+		height: 30vh;
+		z-index: 1;
+	}
+	
+	
+	
+	.main
+	{
+		float: left;
+		margin-top: 11px;.
+		margin-right: 20px;
+		
+	
+		
+		
+		
+	}
+	.main li{
+		display: inline-block;
+	}
+	.main li a{
+		color: black;
+		text-decoration: none;
+		font-size: 17px;
+		padding: 8px 25px;
+		transition-delay: 0.9s ease;
+		
+		
+		
+		
+	}
+	.main li a:hover
+	{
+		background-color: black;
+		color: whitesmoke;
+		opacity: 0.5;
+		border-radius: 10px; 
+		
+		
+			
+		
+	}
+	
+	
+	
+	
+	.a
+	{
+		position: absolute;
+		display: inline-block;
+		padding: 17px, 25px;
+		color: red;
+		top: 60%;
+		left: 72%;
+		font-size: 18px;
+		padding: 13px 23px;
+		transition-delay: 1s;
+		overflow: hidden;
+		
+		
+	}
+	.a:hover
+	{
+		background-color: goldenrod;
+		color: black;
+		box-shadow: 0 0 10px  goldenrod, 0 0 40px  goldenrod,0 0 80px  goldenrod;
+		opacity: 0.7;
+		border-radius: 40px;
+	
+	}
+	.a span
+	{
+		position: absolute;
+		display: block;
+		
+	}
+	.a span:nth-child(1)
+	{
+		top: 0;
+		left: -100%;
+		width: 100%;
+		height: 2px;
+		background: linear-gradient(90deg,transparent,goldenrod);
+	}
+	.a:hover span:nth-child(1)
+	{
+		left: 100%;
+		transition: 1s;
+		 
+		
+	}
+	.a span:nth-child(3)
+	{
+		bottom: 0;
+		right: -100%;
+		width: 100%;
+		height: 2px;
+		background: linear-gradient(270deg,transparent,goldenrod);
+	}
+	.a:hover span:nth-child(3)
+	{
+		right: 100%;
+		transition: 0.8s;
+		transition-delay: 0.5s;
+	}
+	.a span:nth-child(2)
+	{
+		top: -100%;
+		right: 0;
+		width: 2px;
+		height: 100%;
+		background: linear-gradient(180deg,transparent,goldenrod);
+	}
+	.a:hover span:nth-child(2)
+	{
+		top: 100%;
+		transition: 0.8s;
+		transition-delay: 0.25s;
+	}
+	
+	
+	
+	
+	
+	
+	.title
+	{
+		position: absolute;
+		top: 30%;
+		left: 60%;
+		font-size: 50px;
+		color: darkgoldenrod;
+		text-shadow: 3px 3px 2px black;
+		font-family: 'Raleway Dots', cursive;
+	}
+	.title:hover
+	{
+		color: white;
+	}
+	.title1
+	{
+		position: absolute;
+		color: white;
+		font-size: 16px;
+		left: 60%;
+		right: 4%;
+		top: 44%;
+		text-shadow: 3px 3px 3px black;
+		font-family: 'Rajdhani', sans-serif;
+		
+	}
+	.title1:hover
+	{
+		color: aqua;
+		text-shadow: 3px 3px 1px black;
+	}
+	.hr
+	{
+		position: absolute;
+		top: 40%;
+		left: 60%;
+		width: 540px;
+		height: 1px;
+		color: coral;
+		
+	}
+	
+	.img1
+	{
+		position:absolute;
+		top: 390px;
+		left: 150px;
+		height: 25vh;
+		border-radius: 8px;
+		display: block;
+		box-shadow:   0 0 20px white, 0 0 80px  darkgoldenrod;
+	}
+	.img2
+	{
+		position:absolute;
+		top: 140px;
+		left: 300px;
+		height: 25vh;
+		border-radius: 8px;
+		display: block;
+		box-shadow:   0 0 20px white, 0 0 80px darkgoldenrod;
+		
+	}
+	
+	.container{
+		position: relative;
+		width: 50%;
+		left: 25px;
+		
+	}
+	.overlay{
+		position: absolute;
+		bottom: 100%;
+		height: 0;
+		width: 100%;
+		background-color: black;
+		overflow: hidden;
+		transition: .5s ease;
+		
+		
+		
+	}
+	.container:hover.overlay{
+		bottom: 0;
+		height: 100%;
+		
+	}
+	
+	
+</style>
+<body>
+	<header>
+	
+		<div >
+			<div class="head" style="border-bottom-style: double;">
+			<ul class="main">
+			<li><a href="" style="font-family: 'Cinzel', serif;">HOME</a></li>
+			<li><a href="" style="font-family: 'Cinzel', serif;">FEATURE</a></li>
+			<li><a href="" style="font-family: 'Cinzel', serif;">OUR TEAM</a></li>
+			<li><a href="" style="font-family: 'Bungee Inline'; padding: 1px 20px;">DRAWING</a></li>
+		    <li><a href="" style="font-family: 'Cinzel', serif;">PHOTOPRAPHY</a></li>
+			<li><a href="" style="font-family: 'Cinzel', serif;">BLOG</a></li>
+		    <li><a href="" style="font-family: 'Cinzel', serif;">VIDEO</a></li>
+			
+			</ul>
+			</div>
+			
+		</div>
+		
+		<img src="logo.png" class="img">
+		
+		<a class="a" href="next background.html">
+			CLICK HERE
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			
+			
+			
+		</a>
+		<div class="title">
+			<strong>SPARKLING THE LIGHT</strong>
+		</div>
+		<hr size="0.01px" class="hr">
+		<div class="title1">
+			This website is to clarify you guys about ART which is drawing, photography and more.
+		</div>
+		<div class="headd" ></div>
+		
+		
+	</header>
+	
+		
+
+	
+	
+</body>
+</html>
