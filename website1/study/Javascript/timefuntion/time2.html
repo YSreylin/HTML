@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+/*setTimeout allows us to run a function once after the interval of time.
+setInterval allows us to run a function repeatedly, starting after the interval of time, then repeating continuously at that interval.
+the clearTimeout() method clears a timer set with the setTimeout() method.
+*/
+
+//var ID=0;
+//var s=0;
+function f1()
+{
+//document.getElementById("u").innerHTML=s+"seconds"
+document.getElementById("u").innerHTML="5 seconds have passed"
+//s++;
+}
+function start()
+{
+//ID=window.setInterval(f1,1000)
+ID=window.setTimeout(f1,5000)
+}
+function stop()
+{
+//window.clearInterval(ID)
+window.clearTimeout(ID)
+}
+</script>
+</head>
+
+<body>
+</body>
+<button onclick="start()">start</button>
+<h2 id="u">hello</h2>
+<button onclick="stop()">stop</button>
+</html>
+//__________
+<html>
+<head>
+<title>Untitled Document</title>
+<script>
+
+function sayHi() {
+alert('BATCH8');
+}
+
+setTimeout(sayHi, 1000);
+</script>
+</head>
+
+<body>
+</body>
+</html>
+//-------------------
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+function sayHi(phrase, who) {
+alert( phrase + ' ' + who );
+}
+
+setTimeout(sayHi, 6000, "ASIA", "CAMBODIA"); // Hello, John
+</script>
+</head>
+
+<body>
+</body>
+</html>
+

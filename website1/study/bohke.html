@@ -1,0 +1,25 @@
+
+<html>
+    <head>
+        <title>JavaScript to find Odd or Even number Example</title>
+        <script>
+            function findOddEven(){
+                var num = document.getElementById('num').value;
+
+                if ( num % 2 == 0) {
+                    document.getElementById('result').innerHTML = ' is a Even number';
+                }else{
+                    document.getElementById('result').innerHTML =' is a Odd number';
+                }
+            }        
+        </script>
+    </head>
+    <body>
+        <h2>JavaScript to find Odd or Even number!</h2>
+        
+            Enter a number:  <input type="number" id="num"/>
+                             <input type="button" value="Find Odd or Even" onclick="findOddEven()"/>
+                             <div id="result"></div>
+        
+    </body>
+</html>

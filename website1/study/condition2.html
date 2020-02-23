@@ -1,0 +1,47 @@
+
+
+<html>
+<head>
+<title>javascript: calculate two numbers</title>
+<script>
+function calc()
+{
+var n1 = parseFloat(document.getElementById('mi').value);
+var n2 = parseFloat(document.getElementById('ma').value);
+var oper = document.getElementById('operators').value;
+
+if(oper === '+')
+{
+document.getElementById('result').value = n1+n2;
+}
+if(oper === '-')
+{
+document.getElementById('result').value = n1-n2;
+}
+if(oper === '/')
+{
+document.getElementById('result').value = n1/n2;
+}
+if(oper === 'X')
+{ document.getElementById('result').value = n1*n2;
+}
+}
+</script>
+</head>
+<body align="center" style="margin-top: 450px; ">
+<input type="text" id="mi"/><br/><br/>
+<input type="text" id="ma"/><br/><br/>
+
+<select id="operators">
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="/">/</option>
+<option value="X">X</option>
+</select>
+
+<button onclick="calc();">=</button>
+<input id="result"/>
+
+</body>
+</html>
+

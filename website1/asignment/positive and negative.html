@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>positive and negative</title>
+<script>
+function cals()
+{
+var a = document.getElementById('a').value;
+if (a>0)
+	document.getElementById('result').innerHTML= 'It is the positive number';
+else
+	document.getElementById('result').innerHTML= 'It is the negative  number';
+}
+</script>
+</head>
+
+<body>
+<input type="text" id="a">
+<button onClick="cals()">click here</button>
+<h3 id="result"></h3>

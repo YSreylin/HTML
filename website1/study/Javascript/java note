@@ -1,0 +1,58 @@
+avscript Standardized by European Computer Manufacturers Association Script
+
+An organization that creates standards for technologies.
+
+brendan eich 1995 to enhance the activity of client side language in netscape.
+
+intially it is called as livescript but it is famous next to java so it is called as javascript
+
+JavaScript was initially created to “make web pages alive”.
+
+browser runs thorugh “JavaScript virtual machine"
+
+V8 – in Chrome and Opera.
+SpiderMonkey – in Firefox.
+
+how engine works
+
+The engine (embedded if it’s a browser) reads (“parses”) the script.
+Then it converts (“compiles”) the script to the machine language.
+And then the machine code runs, pretty fast.
+
+importance of java script
+
+react js used to create web and mobile application simuntaneusly
+
+react Native completely used for android and ios application
+
+react VR
+
+tensorflow.js used for machine learning models
+
+angular js used to create dynamic web application
+
+electronjs used to create desktop application
+
+document object model
+
+JavaScript can access all the elements in a webpage making use of Document Object Model (DOM). In fact, the web browser creates a DOM of the webpage when the page is loaded
+
+html is used for structure the web page
+
+css-is used for present the web page
+
+javascript-add functionality(i.e behaviour) to the page
+
+how does javascript interact with html and css
+
+html program is converted into document object model using javascript virtual machine
+
+javascript is access the html program though Dom
+
+Each tag in the Dom is known as element node. Attribute is called as Attribute node and user text is called as text node
+
+rectangle box is called as objects
+
+Class comments
+
+

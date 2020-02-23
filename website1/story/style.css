@@ -1,0 +1,112 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(2019-Holding-page.png);
+    height: 132vh;
+    weight: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+.img{
+    position: fixed;
+    top: 10px;
+    left:5px;
+   
+}
+
+.nav{
+   height: auto;
+   width: 100%;
+   position: sticky;
+   top:0;
+}
+
+.main-nav
+{
+    float: right;
+    margin-top: 30px;
+    margin-right: 1px;
+   	
+}
+.main-nav li
+{
+    display: inline-block;
+}
+.main-nav li a
+{
+   
+   color: white;
+   text-decoration: none; 
+   padding: 10px 25px;
+   font-family: 'Faster One', cursive;
+   font-size: 18px;
+   transition: 0.6s ease;
+  
+   }
+.main-nav li a:hover {
+  background-color: white;
+  color: black;
+}
+.title
+{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+}
+.title h3
+{
+   color: white;
+   font-size: 70px;
+   text-shadow: 3px 3px 3px gray;
+   text-transform: uppercase;
+   white-space: nowrap;
+   font-family: 'Cinzel Decorative', cursive;
+  
+  
+}
+.title h3:hover{
+   background-color: gray;
+   transition: 0.5s;
+   opacity: 0.2;
+}
+.button
+{
+   position: absolute;
+   left: 50%;
+   top: 60%;
+   transform: translate(-50%,-50%);
+   bottom: 100%;
+   border: 0;
+  
+
+   
+}
+.btn
+{
+   border:1px solid;
+   color: white;
+   text-decoration: none; 
+   padding: 10px 30px;
+   font-family: "roboto" , sans-serif;
+   font-size: 20px;
+   transition: 1s ease;
+   text-transform: uppercase;
+   opacity: 0.75;
+   bottom: 0;
+   height: 100%;
+}
+.btn:hover
+{
+  background-color: #f7a311;
+  color: black; 
+  bottom: 100%;
+  height: 0;
+  box-shadow: 0 0 10px #f7a311, 0 0 40px #f7a311, 0 0 80px #f7a311;
+}
+
