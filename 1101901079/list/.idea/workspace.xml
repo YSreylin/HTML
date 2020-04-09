@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63e53ea6-4b55-43da-a93a-bb89290329b9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y6AZuaujtmwTZoAc0vDGOCden7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.Elist10">
+    <configuration name="Elist10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="list" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../untitled1/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Elist10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Elist6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="list" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../untitled1/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Elist6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Elist7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="list" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../untitled1/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Elist7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Elist8" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="list" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../untitled1/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Elist8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Elist9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="list" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../untitled1/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Elist9.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Elist6" />
+      <item itemvalue="Python.Elist7" />
+      <item itemvalue="Python.Elist8" />
+      <item itemvalue="Python.Elist9" />
+      <item itemvalue="Python.Elist10" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Elist10" />
+        <item itemvalue="Python.Elist9" />
+        <item itemvalue="Python.Elist8" />
+        <item itemvalue="Python.Elist7" />
+        <item itemvalue="Python.Elist6" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63e53ea6-4b55-43da-a93a-bb89290329b9" name="Default Changelist" comment="" />
+      <created>1582252728077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582252728077</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="678" y="156" width="621" height="792" key="#Elist1" timestamp="1582253982065">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="678" y="156" width="621" height="792" key="#Elist1/67.27.1853.1053@67.27.1853.1053" timestamp="1582253982065" />
+    <state x="678" y="156" width="621" height="792" key="#Elist10" timestamp="1582329593178">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="678" y="156" width="621" height="792" key="#Elist10/67.27.1853.1053@67.27.1853.1053" timestamp="1582329593178" />
+    <state x="678" y="156" width="621" height="792" key="#Elist2" timestamp="1582253993743">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="678" y="156" width="621" height="792" key="#Elist2/67.27.1853.1053@67.27.1853.1053" timestamp="1582253993743" />
+    <state x="678" y="156" width="621" height="792" key="#Elist3" timestamp="1582254015016">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="678" y="156" width="621" height="792" key="#Elist3/67.27.1853.1053@67.27.1853.1053" timestamp="1582254015016" />
+    <state x="678" y="156" width="621" height="792" key="#Elist4" timestamp="1582253941761">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="678" y="156" width="621" height="792" key="#Elist4/67.27.1853.1053@67.27.1853.1053" timestamp="1582253941761" />
+    <state x="678" y="156" width="621" height="792" key="#Elist5" timestamp="1582254031011">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="678" y="156" width="621" height="792" key="#Elist5/67.27.1853.1053@67.27.1853.1053" timestamp="1582254031011" />
+    <state x="678" y="156" width="621" height="792" key="#Elist6" timestamp="1582254040520">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="678" y="156" width="621" height="792" key="#Elist6/67.27.1853.1053@67.27.1853.1053" timestamp="1582254040520" />
+    <state x="678" y="156" width="621" height="792" key="#Elist7" timestamp="1582255334577">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="678" y="156" width="621" height="792" key="#Elist7/67.27.1853.1053@67.27.1853.1053" timestamp="1582255334577" />
+    <state x="678" y="156" width="621" height="792" key="#Elist8" timestamp="1582327578450">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="678" y="156" width="621" height="792" key="#Elist8/67.27.1853.1053@67.27.1853.1053" timestamp="1582327578450" />
+    <state x="678" y="156" width="621" height="792" key="#Elist9" timestamp="1582328898813">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="678" y="156" width="621" height="792" key="#Elist9/67.27.1853.1053@67.27.1853.1053" timestamp="1582328898813" />
+    <state x="450" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582253838537">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="450" y="209" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582253838537" />
+    <state x="703" y="356" width="570" height="392" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583461399836">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="703" y="356" width="570" height="392" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1583461399836" />
+    <state x="775" y="309" width="426" height="486" key="FileChooserDialogImpl" timestamp="1583461195055">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="775" y="309" width="426" height="486" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1583461195055" />
+    <state width="1828" height="278" key="GridCell.Tab.0.bottom" timestamp="1582465594542">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1828" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582465594542" />
+    <state width="1828" height="278" key="GridCell.Tab.0.center" timestamp="1582465594542">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1828" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582465594542" />
+    <state width="1828" height="278" key="GridCell.Tab.0.left" timestamp="1582465594541">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1828" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582465594541" />
+    <state width="1828" height="278" key="GridCell.Tab.0.right" timestamp="1582465594542">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1828" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582465594542" />
+  </component>
+</project>
